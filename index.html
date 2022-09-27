@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="snake.js" defer></script>
+    <title>🐍 Snake.js</title>
+  </head>
+  <body>
+    <h1>🐍 Snake.js</h1>
+    <div id="snake-wrapper">
+      <canvas id="snake-js" width="525" height="525">Your browser does not support canvas.</canvas>
+      <div id="snake-game-over">
+        <h2>Game Over</h2>
+        <p id="snake-game-over-new-hiscore"><em>New record!</em></p>
+        <p><b>Score</b>: <span id="snake-game-over-score">1</span></p>
+        <p><b>Hiscore</b>: <span id="snake-game-over-hiscore">1</span></p>
+        <button id="snake-game-over-reset">Try again</button>
+      </div>
+      <div id="snake-pause">
+        <h2>Game Paused</h2>
+        <p>Press <em>Escape</em> to unpause the Game.</p>
+      </div>
+    </div>
+  </body>
+</html>

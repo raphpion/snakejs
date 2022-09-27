@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#snake-wrapper {
+  position: relative;
+}
+
+#snake-js {
+  width: 525px;
+  height: 525px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#snake-game-over,
+#snake-pause {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+#snake-game-over-new-record {
+  display: none;
+}
+
+#snake-game-over h2,
+#snake-game-over p {
+  margin: 0 0 16px;
+}
+
+#snake-game-over-reset {
+  background-color: rgb(0, 161, 0);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  filter: brightness(1);
+  transition: background-color 0.1s ease-in-out;
+}
+
+#snake-game-over-reset:hover {
+  background-color: green;
+}

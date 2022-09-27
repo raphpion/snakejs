@@ -1,2 +1,3 @@
-# snakejs
- A Canvas-based JavaScript Snake Game
+# Snake.js
+
+A Canvas-based JavaScript Snake Game
